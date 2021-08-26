@@ -158,7 +158,7 @@
 					<div>
 						<ul>
 							<?php if (strlen($_SESSION['login'])) {   ?>
-								<li class="btn"><a href="#">Bienvenid@ - <?php echo htmlentities($_SESSION['username']); ?></a></li>
+								<li class="btn"><a href="#">Bienvenid@ - <?php echo substr($_SESSION['username'], 0, 10 ); ?></a></li>
 							<?php } ?>
 	
 							<li class="btn"><a href="my-account.php"><i class="icon fa fa-user"></i > Mi cuenta </a></li>
