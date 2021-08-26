@@ -11,7 +11,7 @@
 					<li><a href="my-account.php">Mi cuenta</a></li>
 					<li><a href="bill-ship-addresses.php">Dirección de Envío/Facturación</a></li>
 					<li><a href="order-history.php">Historial de Orden</a></li>
-					<li><a href="pending-orders.php">Pedidos Pendiendes de Pago</a></li>
+					
 				</ul>		
 			</div>
 		</div>
