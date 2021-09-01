@@ -1,3 +1,4 @@
+
 <footer id="footer" class="footer color-bg">
 	  <div class="links-social inner-top-sm">
         <div class="container">
@@ -21,12 +22,12 @@
         <div class="social-icons">
             
         <a href="https://facebook.com/biktion" target="_blank" class='active'><i class="icon fa fa-facebook"></i></a>
-        <a href="https://wa.me/573124402658" target="_blank" class='active'><i class="icon fa fa-youtube"></i></a>
+        <a href="https://wa.me/573124402658" target="_blank" class='active'><i class="icon fa fa-wechat"></i></a>
        
 
         </div>
     </div>
-
+    
 </div>
 <!-- ============================================================= CONTACT INFO : END ============================================================= -->            	</div>
 
@@ -53,7 +54,7 @@
 <!-- ============================================================= CONTACT TIMING : END ============================================================= -->            	</div>
 
             	<div class="col-xs-12 col-sm-6 col-md-4">
-            		 <!-- ============================================================= INFORMATION============================================================= -->
+  <!--  ============================================================= INFORMATION============================================================= -->
 <div class="contact-information">
 	<div class="module-heading">
 		<h4 class="module-title">Información</h4>
@@ -99,7 +100,7 @@
     </div>
 </div>
 <!-- Ionic icons -->
-<!-- <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet"> -->
+ <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet"> 
 
 <!-- =================Copyright================================================= -->            	</div>
 </div>
