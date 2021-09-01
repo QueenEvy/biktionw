@@ -54,7 +54,7 @@ textarea, input[type="text"], input[type="password"], input[type="datetime"], in
 	box-shadow: none;
 }
 textarea:hover, input[type="text"]:hover, input[type="password"]:hover, input[type="datetime"]:hover, input[type="datetime-local"]:hover, input[type="date"]:hover, input[type="month"]:hover, input[type="time"]:hover, input[type="week"]:hover, input[type="number"]:hover, input[type="email"]:hover, input[type="url"]:hover, input[type="search"]:hover, input[type="tel"]:hover, input[type="color"]:hover {
-	border-color: #B5B5B5;
+	border-color: #F3F5F6;
 }
 textarea:focus, input[type="text"]:focus, input[type="password"]:focus, input[type="datetime"]:focus, input[type="datetime-local"]:focus, input[type="date"]:focus, input[type="month"]:focus, input[type="time"]:focus, input[type="week"]:focus, input[type="number"]:focus, input[type="email"]:focus, input[type="url"]:focus, input[type="search"]:focus, input[type="tel"]:focus, input[type="color"]:focus {
 	border-color: rgba(82, 168, 236, 0.8);
@@ -103,7 +103,7 @@ span.input-help > input {
 .help-button {
 	background-color: #65BCDA;
 	border-radius: 100% 100% 100% 100%;
-	color: #FFFFFF;
+	color: #ffffff;
 	cursor: default;
 	position: absolute;
 	font-size: 14px;
@@ -261,7 +261,7 @@ textarea.autosize {
 	content: "\f00c";
 	display: inline;
 	font-family: FontAwesome;
-	color: #468847;
+	color: #701616;
 }
 .has-error .note-editor, .has-error .cke_chrome {
 	border-color: #B94A48 !important;
@@ -326,7 +326,7 @@ textarea.autosize {
 	color: #569099;
 }
 a.teal:hover {
-	color: #4d8189;
+	color: #dad161;
 }
 .orange {
 	color: #E6674A;
@@ -588,7 +588,7 @@ li.dropdown.current-user .dropdown-menu li a {
 }
 
 .btn:hover::after {
-	background-color: rgb(148, 148, 62);
+	background-color: rgb(209, 194, 61) !important;
 }
 .btn-teal {
 	background-color: #569099;
@@ -2267,6 +2267,7 @@ span.star:before {
 .social-icons li a, a.social-icon {
 	background-position: 0 0;
 	background-repeat: no-repeat;
+	color: darkgrey;
 	display: block;
 	height: 28px;
 	transition: all 0.3s ease-in-out 0s;
@@ -2336,10 +2337,10 @@ span.star:before {
 	opacity: 0.5;
 }
 .slider-teal .ui-rangeSlider-bar {
-	background: rgba(86, 144, 153, 0.6) !important;
+	background: rgba(86, 144, 153, 0.6) ;
 }
 .slider-teal .ui-rangeSlider-handle {
-	background: rgba(86, 144, 153, 0.8) !important;
+	background: rgba(86, 144, 153, 0.8) ;
 }
 .slider-teal .ui-rangeSlider-label {
 	background-image: none !important;
@@ -3048,7 +3049,7 @@ body.error-full-page {
 /* ---------------------------------------------------------------------- */
 /*	Inline Editor
 /* ---------------------------------------------------------------------- */
-}
+
 #inline-container [contenteditable="true"] {
 	padding: 10px;
 }

@@ -114,7 +114,7 @@ if (isset($_GET['action']) && $_GET['action'] == "add") {
 	</div>
 	
 </div>
-<!-- ============================================== SCROLL TABS ============================================== -->
+<!-- ============================================== Destacados ============================================== -->
 
  <div class="container">
 			<div id="product-tabs-slider" class="scroll-tabs inner-bottom-vs  wow fadeInUp">
@@ -192,7 +192,7 @@ if (isset($_GET['action']) && $_GET['action'] == "add") {
 			</div>
 
 
-			<!-- ============================================== TABS ============================================== -->
+			<!-- ============================================== Chaquetas============================================== -->
 			<div class="sections prod-slider-small outer-top-small">
 				<div class="row">
 					<div class="col-md-6">
@@ -212,20 +212,13 @@ if (isset($_GET['action']) && $_GET['action'] == "add") {
 														<a href="product-details.php?pid=<?php echo htmlentities($row['id']); ?>"><img src="admin/productimages/<?php echo htmlentities($row['id']); ?>/<?php echo htmlentities($row['productImage1']); ?>" data-echo="admin/productimages/<?php echo htmlentities($row['id']); ?>/<?php echo htmlentities($row['productImage1']); ?>" width="180" height="300"></a>
 													</div>
 												</div>
-
-
 												<div class="product-info text-left">
 													<h3 class="name"><a href="product-details.php?pid=<?php echo htmlentities($row['id']); ?>"><?php echo htmlentities($row['productName']); ?></a></h3>
-
 													<div class="description"></div>
-
 													<div class="product-price">
 														<span class="price">
 															$ <?php echo htmlentities($row['productPrice']); ?> </span>
-
-
 													</div>
-
 												</div>
 												<div class="action"><a href="index.php?page=product&action=add&id=<?php echo $row['id']; ?>" class="lnk btn btn-primary">Agregar a carrito</a></div>
 											</div>
@@ -235,59 +228,50 @@ if (isset($_GET['action']) && $_GET['action'] == "add") {
 							</div>
 						</section>
 					</div>
+				               
+					<!-- Guantes -->
 					<div class="col-md-6">
 						<section class="section">
 							<h3 class="section-title">Guantes</h3>
-							<div class="owl-carousel homepage-owl-carousel custom-carousel outer-top-xs owl-theme" data-item="2">
+							<div class="owl-carousel homepage-owl-carousel custom-carousel  owl-theme" data-item="2">
+
 								<?php
 								$ret = mysqli_query($con, "select * from products where category=4 and subCategory=14");
 								while ($row = mysqli_fetch_array($ret)) {
 								?>
-
 									<div class="item item-carousel">
 										<div class="products">
-
 											<div class="product">
 												<div class="product-image">
 													<div class="image">
-														<a href="product-details.php?pid=<?php echo htmlentities($row['id']); ?>"><img src="admin/productimages/<?php echo htmlentities($row['id']); ?>/<?php echo htmlentities($row['productImage1']); ?>" data-echo="admin/productimages/<?php echo htmlentities($row['id']); ?>/<?php echo htmlentities($row['productImage1']); ?>" width="300" height="300"></a>
+														<a href="product-details.php?pid=<?php echo htmlentities($row['id']); ?>"><img src="admin/productimages/<?php echo htmlentities($row['id']); ?>/<?php echo htmlentities($row['productImage1']); ?>" data-echo="admin/productimages/<?php echo htmlentities($row['id']); ?>/<?php echo htmlentities($row['productImage1']); ?>" width="180" height="300"></a>
 													</div>
 												</div>
-
-
 												<div class="product-info text-left">
 													<h3 class="name"><a href="product-details.php?pid=<?php echo htmlentities($row['id']); ?>"><?php echo htmlentities($row['productName']); ?></a></h3>
-
 													<div class="description"></div>
-
 													<div class="product-price">
 														<span class="price">
-															$<?php echo htmlentities($row['productPrice']); ?> </span>
-
-
+															$ <?php echo htmlentities($row['productPrice']); ?> </span>
 													</div>
-
 												</div>
 												<div class="action"><a href="index.php?page=product&action=add&id=<?php echo $row['id']; ?>" class="lnk btn btn-primary">Agregar a carrito</a></div>
 											</div>
 										</div>
 									</div>
 								<?php } ?>
-
-
-
 							</div>
 						</section>
-
+					</div>
 					</div>
 				</div>
-			</div>
-			<!-- ============================================== TABS : END ============================================== -->
+		
+			<!-- ==============================================  ============================================== -->
 
 
 
-			<section class="section featured-product inner-xs wow fadeInUp">
-				<h3 class="section-title">Pantalones</h3>
+			<section class="section featured-product inner-xs wow fadeInUp ">
+				<h3 class="section-title " >Pantalones</h3>
 				<div class="owl-carousel best-seller custom-carousel owl-theme outer-top-xs">
 					<?php
 					$ret = mysqli_query($con, "select * from products where category=6");
@@ -297,28 +281,25 @@ if (isset($_GET['action']) && $_GET['action'] == "add") {
 
 					?>
 					
-						<div class="item">
+						<div class="item ">
 							<div class="products">
-
-
-
-
 								<div class="product">
-									<div class="product-micro">
-										<div class="row product-micro-row">
+									<div class="product-micro ">
+										<div class="row product-micro-row ">
 											<div class="col col-xs-6">
 												<div class="product-image">
 													<div class="image">
 														<a href="admin/productimages/<?php echo htmlentities($row['id']); ?>/<?php echo htmlentities($row['productImage1']); ?>" data-lightbox="image-1" data-title="<?php echo htmlentities($row['productName']); ?>">
 															<img data-echo="admin/productimages/<?php echo htmlentities($row['id']); ?>/<?php echo htmlentities($row['productImage1']); ?>" width="170" height="174" alt="">
 															<div class="zoom-overlay"></div>
+															<!-- Wiliam creo que aqui deberia aparecer como los otros productos, solo da para zoom -->
 														</a>
 													</div>
 
 												</div>
 											</div>
 											<div class="col col-xs-6">
-												<div class="product-info">
+												<div class="product-info text-left">
 													<h3 class="name"><a href="product-details.php?pid=<?php echo htmlentities($row['id']); ?>"><?php echo htmlentities($row['productName']); ?></a></h3>
 
 													<div class="product-price">
@@ -333,14 +314,13 @@ if (isset($_GET['action']) && $_GET['action'] == "add") {
 										</div>
 									</div>
 								</div>
-
-
 							</div>
-						</div><?php } ?>
+						</div>
+						<?php } ?>
 						
 				</div>
 			</section>
-			
+		</div>
 		</div> <!-- Fin container -->
 
 		<!-- Diseño personalizado -->

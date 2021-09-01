@@ -20,8 +20,8 @@
     
         <div class="social-icons">
             
-        <a href="https://facebook.com/biktion" class='active'><i class="icon fa fa-facebook"></i></a>
-        <a href="https://wa.me/573124402658" target="_blank" class='active'><i class="icon fab fa-facebook"></i></a>
+        <a href="https://facebook.com/biktion" target="_blank" class='active'><i class="icon fa fa-facebook"></i></a>
+        <a href="https://wa.me/573124402658" target="_blank" class='active'><i class="icon fa fa-youtube"></i></a>
        
 
         </div>
@@ -37,18 +37,15 @@
 		<h4 class="module-title">Ayuda</h4>
 	</div>
 
-	<div class="module-body outer-top-xs">
+	<div class="module-body ">
 		<div class="table-responsive">
 			<table class="table">
-                <ul class="style2">
-                    <li><a href="faqs.php">FQAs</a></li>
-                    <li><a href="tallas.php">Guía de Tallas</a></li>
-                </ul>
-				<!-- <tbody>
-					<tr><td>Lunes-Viernes:</td><td class="pull-right">08:00 a 18:00 hrs</td></tr>
-					<tr><td>Sábados:</td><td class="pull-right">09:00 a 20:00</td></tr>
-					<tr><td>Domingos:</td><td class="pull-right">10:00 a 20:00</td></tr>
-				</tbody> -->
+             
+				<tbody>
+					<tr><td>Lunes-Viernes:</td><td >08:00 a 18:00 hrs</td></tr>
+					<tr><td>Sábados:</td><td >09:00 a 20:00</td></tr>
+					<tr><td>Domingos:</td><td >10:00 a 20:00</td></tr>
+				</tbody>
 			</table>
 		</div>
 	</div>
@@ -62,7 +59,7 @@
 		<h4 class="module-title">Información</h4>
 	</div>
 
-	<div class="module-body outer-top-xs">
+	<div class="module-body ">
         <ul class="toggle-footer">
             <li class="media">
                 <div class="pull-left">
@@ -71,7 +68,7 @@
                       <i class="fa fa-map-marker fa-stack-1x fa-inverse"></i>
                     </span>
                 </div>
-                <div class="media-body">
+                <div class="media">
                     <a href="https://goo.gl/maps/B6WMhffkQ5tWbf8V7" target="_blank">Bogota, Colombia</p>
                 </div>
             </li>
@@ -83,11 +80,10 @@
                       <i class="fa fa-mobile fa-stack-1x fa-inverse"></i>
                     </span>
                 </div>
-                <div class="media-body">
-                    <p>315 123 25 86<br> 211 25 85</p>
+                <div class="media">
+                    <span> 315 123 25 86 </span>
                 </div>
             </li>
-
               <li class="media">
                 <div class="pull-left">
                      <span class="icon fa-stack fa-lg">
@@ -95,16 +91,15 @@
                       <i class="fa fa-envelope fa-stack-1x fa-inverse"></i>
                     </span>
                 </div>
-                <div class="media-body">
-                    <span><a href="#">biktion@gmail.com</a></span>
+                <div class="media">
+                    <span> biktion@gmail.com</span>
                 </div>
             </li>
-              
             </ul>
     </div>
 </div>
 <!-- Ionic icons -->
-<link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
+<!-- <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet"> -->
 
 <!-- =================Copyright================================================= -->            	</div>
 </div>
