@@ -12,10 +12,10 @@ $password=md5($_POST['password']);
 $query=mysqli_query($con,"insert into users(name,email,contactno,password) values('$name','$email','$contactno','$password')");
 if($query)
 {
-	echo "<script>alert('You are successfully register');</script>";
+	echo "<script>alert('Te has registrado correctamente');</script>";
 }
 else{
-echo "<script>alert('Not register something went worng');</script>";
+echo "<script>alert('No se ha registrado, ha ocurrido un error');</script>";
 }
 }
 // Code for User login
@@ -49,7 +49,7 @@ $log=mysqli_query($con,"insert into userlog(userEmail,userip,status) values('$em
 $host  = $_SERVER['HTTP_HOST'];
 $uri  = rtrim(dirname($_SERVER['PHP_SELF']),'/\\');
 header("location:http://$host$uri/$extra");
-$_SESSION['errmsg']="Invalid email id or Password";
+$_SESSION['errmsg']="Correo o Contraseña invalidos";
 exit();
 }
 }
@@ -111,7 +111,7 @@ function valid()
 {
  if(document.register.password.value!= document.register.confirmpassword.value)
 {
-alert("Password and Confirm Password Field do not match  !!");
+alert("Las contraseñas no coinciden!!");
 document.register.confirmpassword.focus();
 return false;
 }
