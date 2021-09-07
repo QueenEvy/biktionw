@@ -173,7 +173,7 @@
 									echo htmlentities($_SESSION['errmsg']="");
 									?>
 									<?php if (empty($_SESSION['login'])) {   ?>
-									<li class="btn"><a href="registro.php"><i class="icon fa fa-pencil"></i> Registrarse</a></li>
+									<li class="btn"><a href="registro.php"><i class="icon fa fa-pencil"></i> Registrarse.</a></li>
 									<?php } ?>
 							</ul>
 							</div>
