@@ -22,7 +22,7 @@ SET time_zone = "+00:00";
 --
 
 -- --------------------------------------------------------
-
+create database `shopping`;
 --
 -- Estructura de tabla para la tabla `admin`
 --
